@@ -1,0 +1,1 @@
+This repository demonstrates a common React bug involving the improper use of `setInterval`.  The provided `bug.js` file shows how to introduce a memory leak by failing to clear the interval before unmounting the component. The `bugSolution.js` file provides a corrected implementation, demonstrating how to properly manage intervals to prevent these issues.
